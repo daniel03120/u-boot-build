@@ -23,64 +23,19 @@ jobs:
         boards:
           [
             {
-              "name": "rk3566-anbernic-rgxx3",
-              "config": "anbernic-rgxx3-rk3566_defconfig",
-              "variant": "RK3566",
+              "name": "rk3568-lt-d3568",
+              "config": "lt-d3568-rk3568_defconfig",
+              "variant": "RK3568",              
             },
             {
-              "name": "rk3566-orangepi-3b",
-              "config": "orangepi-3b-rk3566_defconfig",
-              "variant": "RK3566",
+              "name": "rk3568-rock-3a",
+              "config": "rock-3a-rk3568_defconfig",
+              "variant": "RK3568",
             },
-            {
-              "name": "rk3566-pinetab2",
-              "config": "pinetab2-rk3566_defconfig",
-              "variant": "RK3566",
-            },
-            {
-              "name": "rk3566-powkiddy-x55",
-              "config": "powkiddy-x55-rk3566_defconfig",
-              "variant": "RK3566",
-            },
-            {
-              "name": "rk3566-quartz64-a",
-              "config": "quartz64-a-rk3566_defconfig",
-              "variant": "RK3566",
-            },
-            {
-              "name": "rk3566-quartz64-b",
-              "config": "quartz64-b-rk3566_defconfig",
-              "variant": "RK3566",
-            },
-            {
-              "name": "rk3566-radxa-cm3-io",
-              "config": "radxa-cm3-io-rk3566_defconfig",
-              "variant": "RK3566",
-            },
-            {
-              "name": "rk3566-radxa-zero-3",
-              "config": "radxa-zero-3-rk3566_defconfig",
-              "variant": "RK3566",
-            },
-            {
-              "name": "rk3566-rock-3c",
-              "config": "rock-3c-rk3566_defconfig",
-              "variant": "RK3566",
-            },
-            {
-              "name": "rk3566-soquartz-blade",
-              "config": "soquartz-blade-rk3566_defconfig",
-              "variant": "RK3566",
-            },
-            {
-              "name": "rk3566-soquartz-cm4",
-              "config": "soquartz-cm4-rk3566_defconfig",
-              "variant": "RK3566",
-            },
-            {
-              "name": "rk3566-soquartz-model-a",
-              "config": "soquartz-model-a-rk3566_defconfig",
-              "variant": "RK3566",
+             {
+              "name": "rk3568-generic",
+              "config": "generic-rk3568_defconfig",
+              "variant": "RK3568",
             },
             {
               "name": "rk3568-bpi-r2-pro",
@@ -88,51 +43,10 @@ jobs:
               "variant": "RK3568",
             },
             {
-              "name": "rk3568-evb",
-              "config": "evb-rk3568_defconfig",
-              "variant": "RK3568",
-            },
-            {
-              "name": "rk3568-generic-rk3568",
-              "config": "generic-rk3568_defconfig",
-              "variant": "RK3568",
-            },
-            {
-              "name": "rk3568-lubancat-2",
-              "config": "lubancat-2-rk3568_defconfig",
-              "variant": "RK3568",
-            },
-            {
               "name": "rk3568-nanopi-r5c",
               "config": "nanopi-r5c-rk3568_defconfig",
               "variant": "RK3568",
-            },
-            {
-              "name": "rk3568-nanopi-r5s",
-              "config": "nanopi-r5s-rk3568_defconfig",
-              "variant": "RK3568",
-            },
-            {
-              "name": "rk3568-odroid-m1",
-              "config": "odroid-m1-rk3568_defconfig",
-              "variant": "RK3568",
-            },
-            {
-              "name": "rk3568-radxa-e25",
-              "config": "radxa-e25-rk3568_defconfig",
-              "variant": "RK3568",
-              "baudrate": "115200",
-            },
-            {
-              "name": "rk3568-rock-3a",
-              "config": "rock-3a-rk3568_defconfig",
-              "variant": "RK3568",
-            },
-            {
-              "name": "rk3568-rock-3b",
-              "config": "rock-3b-rk3568_defconfig",
-              "variant": "RK3568",
-            },
+            },           
           ]
 
     steps:
